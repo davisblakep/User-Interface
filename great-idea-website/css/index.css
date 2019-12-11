@@ -183,6 +183,11 @@ h1 {
 	display: block;
 }
 
+#phoneID {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
 /* Footer */
 
 footer {
