@@ -64,3 +64,61 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+a {
+	text-decoration: none;
+}
+
+.navClass a {
+	display: inline-block;
+	width: 10%;
+}
+
+.logo {
+	display: inline-block;
+}
+
+header {
+	display: inline-block;
+	text-align: center;
+}
+
+h1 {
+
+}
+
+.featuresDivClass {
+	display: inline-block;
+	width: 40%;
+}
+
+.aboutDivClass {
+	display: inline-block;
+	width: 40%;
+}
+
+.bottomSectionClass {
+	margin: 50px;
+}
+
+.servicesDivClass {
+	display: inline-block;
+	width: 26%;
+}
+
+.productDivClass {
+	display: inline-block;
+	width: 26%;
+}
+
+.visionDivClass {
+	display: inline-block;
+	width: 26%;
+}
+
+
+
+.contactSectionClass {
+	margin: 50px;
+	display: block;
+}
