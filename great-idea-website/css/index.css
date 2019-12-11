@@ -65,6 +65,9 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+
+/* Top Nav Section */
+
 a {
 	text-decoration: none;
 }
@@ -72,53 +75,118 @@ a {
 .navClass a {
 	display: inline-block;
 	width: 10%;
+	color: dimgray;
+}
+
+.navClass {
+	margin-left: 50px;
+	margin-top: 20px;
 }
 
 .logo {
-	display: inline-block;
+	display: inline-block
 }
+
+/* Header containing Innovation on Demand, Get Started, 
+and the circle photo */
 
 header {
-	display: inline-block;
-	text-align: center;
-}
+	/* box-sizing: border-box; 
+	display: block;
+	width: 75%;
+	height: 500px;
+	margin: 60px;
+	border: 5px solid purple; */
+	/* height: 400px; */
+} 
 
 h1 {
+	font-size: 70px;
+}
 
+.titleDivClass {
+	display: inline-block;
+	text-align: center;
+	/* box-sizing: border-box; */
+	/* box: 45%; */
+	/* height: 425px; */
+	margin: 100px;  
+	margin-bottom: 50px;
+	/* padding: 20px; */
+	/* border: 5px solid red; */
+	/* margin-bottom: 200px; */
+}
+
+#circlePhotoTopID {
+	/* display: inline-block; */
+	width: 37%;
+	/* border: 5px solid red; */
+	margin-top: 60px;
+	margin-right: 50px;
+}
+
+/* Top Text Section for Features and About */
+
+.topSectionClass {
+	margin: 50px;
+	padding-top: 20px;
+	border-top: 2px solid black;
 }
 
 .featuresDivClass {
+	
 	display: inline-block;
-	width: 40%;
+	width: 45%;
+	margin-right: 30px;
 }
 
 .aboutDivClass {
 	display: inline-block;
-	width: 40%;
+	width: 45%;
 }
+/* Middle Rectangle Image with code */
+
+.middle-img {
+	margin-left: 50px;
+	width: 85%;
+}
+
+/* Bottom Text Section for Services, Product, and Vision */
 
 .bottomSectionClass {
 	margin: 50px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid black;
 }
 
 .servicesDivClass {
 	display: inline-block;
-	width: 26%;
+	width: 30%;
 }
 
 .productDivClass {
 	display: inline-block;
-	width: 26%;
+	width: 30%;
+	margin-left: 14px;
+	margin-right: 14px;
 }
 
 .visionDivClass {
 	display: inline-block;
-	width: 26%;
+	width: 30%;
 }
 
-
+/* Contact Section */
 
 .contactSectionClass {
 	margin: 50px;
 	display: block;
+}
+
+/* Footer */
+
+footer {
+	text-align: center;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
 }
