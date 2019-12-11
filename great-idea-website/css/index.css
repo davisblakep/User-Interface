@@ -76,6 +76,7 @@ a {
 	display: inline-block;
 	width: 10%;
 	color: dimgray;
+	text-align: center;
 }
 
 .navClass {
@@ -84,21 +85,13 @@ a {
 }
 
 .logo {
-	display: inline-block
+	display: inline-block;
 }
 
 /* Header containing Innovation on Demand, Get Started, 
 and the circle photo */
 
-header {
-	/* box-sizing: border-box; 
-	display: block;
-	width: 75%;
-	height: 500px;
-	margin: 60px;
-	border: 5px solid purple; */
-	/* height: 400px; */
-} 
+
 
 h1 {
 	font-size: 70px;
@@ -107,22 +100,21 @@ h1 {
 .titleDivClass {
 	display: inline-block;
 	text-align: center;
-	/* box-sizing: border-box; */
-	/* box: 45%; */
-	/* height: 425px; */
 	margin: 100px;  
 	margin-bottom: 50px;
-	/* padding: 20px; */
-	/* border: 5px solid red; */
-	/* margin-bottom: 200px; */
 }
 
 #circlePhotoTopID {
-	/* display: inline-block; */
 	width: 37%;
-	/* border: 5px solid red; */
 	margin-top: 60px;
 	margin-right: 50px;
+}
+
+#getStartedBoxID {
+	border: 2px solid black;
+	padding: 8px;
+	width: 180px;
+	margin-left: 52px;
 }
 
 /* Top Text Section for Features and About */
