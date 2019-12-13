@@ -64,3 +64,126 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+/* Top Nav Section */
+
+a {
+	text-decoration: none;
+}
+
+.navClass a {
+	display: inline-block;
+	width: 10%;
+	color: dimgray;
+	text-align: center;
+}
+
+.navClass {
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.logo {
+	display: inline-block;
+}
+
+/* Header containing Innovation on Demand, Get Started, 
+and the circle photo */
+
+
+
+h1 {
+	font-size: 70px;
+}
+
+.titleDivClass {
+	display: inline-block;
+	text-align: center;
+	margin: 100px;  
+	margin-bottom: 50px;
+}
+
+#circlePhotoTopID {
+	width: 37%;
+	margin-top: 60px;
+	margin-right: 50px;
+}
+
+#getStartedBoxID {
+	border: 2px solid black;
+	padding: 8px;
+	width: 180px;
+	margin-left: 52px;
+}
+
+/* Top Text Section for Features and About */
+
+.topSectionClass {
+	margin: 50px;
+	padding-top: 20px;
+	border-top: 2px solid black;
+}
+
+.featuresDivClass {
+	
+	display: inline-block;
+	width: 45%;
+	margin-right: 30px;
+}
+
+.aboutDivClass {
+	display: inline-block;
+	width: 45%;
+}
+/* Middle Rectangle Image with code */
+
+.middle-img {
+	margin-left: 50px;
+	width: 85%;
+}
+
+/* Bottom Text Section for Services, Product, and Vision */
+
+.bottomSectionClass {
+	margin: 50px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid black;
+}
+
+.servicesDivClass {
+	display: inline-block;
+	width: 30%;
+}
+
+.productDivClass {
+	display: inline-block;
+	width: 30%;
+	margin-left: 14px;
+	margin-right: 14px;
+}
+
+.visionDivClass {
+	display: inline-block;
+	width: 30%;
+}
+
+/* Contact Section */
+
+.contactSectionClass {
+	margin: 50px;
+	display: block;
+}
+
+#phoneID {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+/* Footer */
+
+footer {
+	text-align: center;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+}
